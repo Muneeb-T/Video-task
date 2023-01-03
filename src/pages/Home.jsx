@@ -10,7 +10,7 @@ const Home = () => {
                         <Link
                             to={`/${video.id}`}
                             className='grid grid-cols-3 gap-3 hover:border duration-200 border-gray-500 rounded cursor-pointer hover:scale-95'
-                            key={Date.now() + index + Math.random() * 100}>
+                            key={video.id}>
                             <div>
                                 <img
                                     src={video.thumbnail}
